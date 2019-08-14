@@ -1,11 +1,16 @@
- [
+ {"users":[
   {
         "imageUrl": "nature4.jpg",
         "name": "Ellie Turner and Jobe Harris have taken out the 2016 British National Surf Championships"
         
     },
     {
-        "imageUrl": "file:///D:/be.academy/Lessons/json/nature4.jpg",
+        "imageUrl": "nature4.jpg",
+        "name": "Surfboards are constantly evolving, and there are multiple board designs for a broad range of environments"
+    },
+    {
+        "imageUrl": "https://st.depositphotos.com/1003352/1324/i/450/depositphotos_13243875-stock-photo-mountain-lake.jpg",
         "name": "Surfboards are constantly evolving, and there are multiple board designs for a broad range of environments"
     }
 ]
+}
