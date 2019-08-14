@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'BigJohn';
+    src: url('../fonts/BigJohn.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BigJohn.otf')  format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SlimJoe';
+    src: url('../fonts/SlimJoe.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SlimJoe.otf')  format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
