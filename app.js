@@ -101,16 +101,16 @@
 //         image += '<img src="' + imageUrl + '"  alt="techne" class="catalog-items__img">';
 
 //         console.log(image)
-    
+
 // }
 ;(function($) {
     "use strict";
-$(function(){
-    $.getJSON('https://valeriia4.github.io/json/info.json', function(data) {
-            for(var i=0;i<data.length;i++){
-                $('#users').append('<tr><td>' + '<img src="data[i].imageUrl"' + '</td><td>' + data[i].name + 
-                '</td><td>');
+    $(function(){
+        $.getJSON('https://valeriia4.github.io/json/info.json', function(data) {
+            for(var i=0;i<data.users.length;i++){
+                $('#users').append('<tr><td>' + '<img src="' + data.users[i].imageUrl + '"' + '</td><td>' + data.users[i].name + '</td><td>');
             }
-    });
-})
+        });
+
+    })
 })(jQuery);
